@@ -1,0 +1,267 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "KFC",
+      "image": "https://i.imgur.com/sZ1Jye3.png",
+      "description": "Especialistas en pollo frito con una receta secreta de 11 hierbas y especias, KFC es un referente mundial en comida rápida."
+    },
+    {
+      "id": "2",
+      "name": "McDonald's",
+      "image": "https://i.imgur.com/su4iB3p.png",
+      "description": "Cadena de comida rápida conocida por sus hamburguesas icónicas y su alcance global."
+    },
+    {
+      "id": "3",
+      "name": "Pizza Hut",
+      "image": "https://logo-sign.com/logos/PizzaHut-logo-old-1024x733.jpg",
+      "description": "Pizzas deliciosas con una amplia variedad de ingredientes y masas."
+    },
+    {
+      "id": "4",
+      "name": "Starbucks",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.yUx1tXLT4IvC077jdAWwgQHaHa&rs=1&pid=ImgDetMain",
+      "description": "La cafetería más famosa del mundo, conocida por sus cafés y bebidas personalizables."
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "restaurantId": "1",
+      "name": "20 Alitas Picantes",
+      "price": "24900",
+      "image": "https://images.getduna.com/5fe6067e-0e11-4869-9118-ad3dcc8765c2/03fb4bd261653a31_domicilio_5935_720x720_1684697761.png?d=600x600&format=webp",
+      "delivery_time": "30-40 min",
+      "delivery_cost": 3.5,
+      "rating": 4.9,
+      "description": "20 Alitas Picantes (Las alitas picantes hot wings equivalen a un trozo de ala)",
+      "ingredients": [
+        { "name": "Pollo", "amount": "20 piezas" },
+        { "name": "Especias secretas", "amount": "10g" },
+        { "name": "Aceite", "amount": "500ml" },
+        { "name": "Harina", "amount": "50g" }
+      ],
+      "category": "Ala picante"
+    },
+    {
+      "id": "2",
+      "restaurantId": "1",
+      "name": "BBQ Crunch",
+      "price": "9990",
+      "image": "https://images.getduna.com/5fe6067e-0e11-4869-9118-ad3dcc8765c2/03fb4bd261653a31_domicilio_2788_720x720_1660826634.png?d=600x600&format=webp",
+      "delivery_time": "20-30 min",
+      "delivery_cost": 2.5,
+      "rating": 4.7,
+      "description": "1 Sándwich BBQ Crunch (1 Filete de pollo apanado)",
+      "ingredients": [
+        { "name": "Pollo", "amount": "120g" },
+        { "name": "Pan", "amount": "2 rebanadas" },
+        { "name": "Lechuga", "amount": "30g" },
+        { "name": "Salsa picante", "amount": "10ml" }
+      ],
+      "category": "Sándwich"
+    },
+    {
+      "id": "3",
+      "restaurantId": "1",
+      "name": "Promo Big Box",
+      "price": "22900",
+      "image": "https://images.getduna.com/5fe6067e-0e11-4869-9118-ad3dcc8765c2/03fb4bd261653a31_domicilio_6785_744x744_1705683806.png?d=600x600&format=webp",
+      "delivery_time": "25-35 min",
+      "delivery_cost": 3.0,
+      "rating": 4.8,
+      "description": "1 Kentucky Coronel Sandwich + 1 Pop Corn Pequeño+ 1 Papa Pequeña + 1 Gaseosa PET 400ml + Sundae",
+      "ingredients": [
+        { "name": "Pollo", "amount": "150g" },
+        { "name": "Especias picantes", "amount": "5g" },
+        { "name": "Aceite", "amount": "400ml" }
+      ],
+      "category": "Combo"
+    },
+    {
+      "id": "4",
+      "restaurantId": "1",
+      "name": "Wow Duo Deluxe",
+      "price": "49000",
+      "image": "https://images.getduna.com/5fe6067e-0e11-4869-9118-ad3dcc8765c2/03fb4bd261653a31_domicilio_7276_744x744_1720733605.png?d=600x600&format=webp",
+      "delivery_time": "15-25 min",
+      "delivery_cost": 2.0,
+      "rating": 4.5,
+      "description": "2 Sandwich Deluxe BBQ (Pan brioche, pechuga de 120gr, tomate, lechuga, Salsa Mayonesa, 1 tajada de queso americano)+ 5 Nuggets + 2 Papas Pequeñas + 2 Gaseosas Pet + Salsa del Coronel",
+      "ingredients": [
+        { "name": "Pollo", "amount": "120g" },
+        { "name": "Tortilla", "amount": "1 unidad" },
+        { "name": "Lechuga", "amount": "20g" },
+        { "name": "Salsa", "amount": "15ml" }
+      ],
+      "category": "Combo premium"
+    },
+    {
+      "id": "5",
+      "restaurantId": "2",
+      "name": "Big Mac",
+      "price": "6990",
+      "image": "https://i.imgur.com/kmQvG2T.png",
+      "delivery_time": "15-25 min",
+      "delivery_cost": 2.5,
+      "rating": 4.8,
+      "description": "La clásica doble hamburguesa con salsa especial.",
+      "ingredients": [
+        { "name": "Carne", "amount": "100g" },
+        { "name": "Pan", "amount": "1 unidad" },
+        { "name": "Salsa especial", "amount": "15ml" },
+        { "name": "Lechuga", "amount": "10g" },
+        { "name": "Queso", "amount": "1 rebanada" }
+      ],
+      "category": "Hamburguesa"
+    },
+    {
+      "id": "6",
+      "restaurantId": "2",
+      "name": "McNuggets (10 piezas)",
+      "price": "5990",
+      "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kLXt4K4N/200/200/original?country=co",
+      "delivery_time": "15-20 min",
+      "delivery_cost": 2.0,
+      "rating": 4.7,
+      "description": "10 trozos de pollo empanizado con salsa a elección.",
+      "ingredients": [
+        { "name": "Pollo", "amount": "200g" },
+        { "name": "Empanizado", "amount": "50g" },
+        { "name": "Aceite", "amount": "30ml" }
+      ],
+      "category": "Nuggets"
+    },
+    {
+      "id": "7",
+      "restaurantId": "2",
+      "name": "McFlurry Oreo",
+      "price": "3990",
+      "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$56e0840ca89db0.29610225_AR_McFlurry-Oreo.png/200/200/original?country=co",
+      "delivery_time": "10-15 min",
+      "delivery_cost": 1.5,
+      "rating": 4.6,
+      "description": "Delicioso helado de vainilla con trozos de galleta Oreo.",
+      "ingredients": [
+        { "name": "Carne", "amount": "113g" },
+        { "name": "Pan", "amount": "1 unidad" },
+        { "name": "Queso", "amount": "20g" },
+        { "name": "Cebolla", "amount": "10g" },
+        { "name": "Pepinillos", "amount": "10g" }
+      ],
+      "category": "Hamburguesa"
+    },
+    {
+      "id": "8",
+      "restaurantId": "2",
+      "name": "Quarter Pounder",
+      "price": "7990",
+      "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXbQ6nV/200/200/original?country=co",
+      "delivery_time": "20-30 min",
+      "delivery_cost": 2.5,
+      "rating": 4.9,
+      "description": "Hamburguesa con un cuarto de libra de carne, queso y vegetales frescos.",
+      "ingredients": [
+        { "name": "Carne", "amount": "180g" },
+        { "name": "Pan", "amount": "1 unidad" },
+        { "name": "Lechuga", "amount": "20g" },
+        { "name": "Tomate", "amount": "15g" },
+        { "name": "Salsa Tasty", "amount": "20ml" }
+      ],
+      "category": "Hamburguesa"
+    },
+    {
+      "id": "9",
+      "restaurantId": "3",
+      "name": "Pepperoni Lover's Pizza",
+      "price": "14990",
+      "image": "https://th.bing.com/th/id/R.fed8d47120a34a8beb2ec643643d50a9?rik=hXA8cODlmbsxNA&pid=ImgRaw&r=0",
+      "delivery_time": "25-35 min",
+      "delivery_cost": 3.0,
+      "rating": 4.8,
+      "description": "Pizza con doble pepperoni y queso extra.",
+      "ingredients": [
+        { "name": "Tortilla", "amount": "1 unidad" },
+        { "name": "Carne al pastor", "amount": "100g" },
+        { "name": "Piña", "amount": "10g" },
+        { "name": "Cebolla", "amount": "5g" },
+        { "name": "Cilantro", "amount": "5g" }
+      ],
+      "category": "Tacos"
+    },
+    {
+      "id": "10",
+      "restaurantId": "3",
+      "name": "Cheese Lover's Pizza",
+      "price": "13990",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.EvR2d64jTFpeioe5nFqH-wHaE7&rs=1&pid=ImgDetMain",
+      "delivery_time": "20-30 min",
+      "delivery_cost": 3.0,
+      "rating": 4.7,
+      "description": "Pizza con mezcla de quesos premium.",
+      "ingredients": [
+        { "name": "Tortilla", "amount": "1 unidad" },
+        { "name": "Pollo", "amount": "150g" },
+        { "name": "Frijoles", "amount": "50g" },
+        { "name": "Arroz", "amount": "100g" },
+        { "name": "Salsa", "amount": "20ml" }
+      ],
+      "category": "Pizza"
+    },
+    {
+      "id": "11",
+      "restaurantId": "3",
+      "name": "Chicken Supreme",
+      "price": "16990",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.JJE-mKR9ehLX1hbVd_MsXAHaF1&rs=1&pid=ImgDetMain",
+      "delivery_time": "30-40 min",
+      "delivery_cost": 4.0,
+      "rating": 4.9,
+      "description": "Pizza con pollo, champiñones, pimientos y queso.",
+      "ingredients": [
+        { "name": "Masa", "amount": "1 unidad" },
+        { "name": "Pollo", "amount": "150g" },
+        { "name": "Champiñones", "amount": "50g" },
+        { "name": "Pimientos", "amount": "100g" },
+        { "name": "Queso", "amount": "20ml" }
+      ],
+      "category": "Hamburguesa"
+    },
+    {
+      "id": "12",
+      "restaurantId": "4",
+      "name": "Caramel Macchiato",
+      "price": "5990",
+      "image": "https://okdiario.com/img/2021/10/16/caramel-machiato.jpg",
+      "delivery_time": "10-15 min",
+      "delivery_cost": 2.0,
+      "rating": 4.9,
+      "description": "Café espresso con leche vaporizada y caramelo.",
+      "ingredients": [
+        { "name": "Espresso", "amount": "1 unidad" },
+        { "name": "Leche", "amount": "150g" },
+        { "name": "Caramelo", "amount": "50g" }
+      ],
+      "category": "Malteadas"
+    },
+    {
+      "id": "13",
+      "restaurantId": "4",
+      "name": "Pumpkin Spice Latte",
+      "price": "6490",
+      "image": "https://www.gannett-cdn.com/media/2018/08/24/Naples/Naples/636707089721745975-Print.jpg",
+      "delivery_time": "10-15 min",
+      "delivery_cost": 2.0,
+      "rating": 4.8,
+      "description": "Café con leche especiada y crema batida.",
+      "ingredients": [
+        { "name": "Espresso", "amount": "1 unidad" },
+        { "name": "Leche", "amount": "150g" },
+        { "name": "Caramelo", "amount": "50g" },
+        { "name": "Crema Batida", "amount": "50g" }
+      ],
+      "category": "Malteadas"
+    }
+  ]
+}
