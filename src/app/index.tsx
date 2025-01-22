@@ -16,7 +16,7 @@ export default function Index() {
   const router = useRouter();
 
   const renderHeader = () => (
-    <View className="w-full px-4" style={{ marginTop: statusBarHeight + 8 }}>
+    <View className="w-full px-4" style={{ marginTop: statusBarHeight -12 }}>
       <Header />
       <Banner />
       <Search />

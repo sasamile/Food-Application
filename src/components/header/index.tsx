@@ -1,11 +1,15 @@
-import { View, Pressable, Text } from 'react-native';
-import { Ionicons, Feather } from '@expo/vector-icons'
+import { View, Pressable, Text } from "react-native";
+import { Ionicons, Feather } from "@expo/vector-icons";
+import { CartButton } from "./cart/cart-button";
+import Toast from "react-native-toast-message";
 
 export function Header() {
- return (
-   <View className="w-full flex flex-row items-center justify-between">
+  return (
+    
+    <View className="w-full flex flex-row items-center justify-between">
+      
       <Pressable className="w-10 h-10 bg-white rounded-full flex justify-center items-center">
-        <Ionicons name="menu" size={20} color="#121212"/>
+        <Ionicons name="menu" size={20} color="#121212" />
       </Pressable>
 
       <View className="flex flex-col items-center justify-center">
@@ -16,10 +20,9 @@ export function Header() {
           <Text className="text-lg font-bold">Campo Grande</Text>
         </View>
       </View>
-
-      <Pressable className="w-10 h-10 bg-white rounded-full flex justify-center items-center">
-        <Feather name="bell" size={20} color="#121212"/>
-      </Pressable>
-  </View>
+      <CartButton />
+  
+      
+    </View>
   );
 }

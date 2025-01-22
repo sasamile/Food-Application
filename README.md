@@ -1,3 +1,5 @@
+![image](https://7xj6mix7et.ufs.sh/f/1rgYr638BTsaDaF8fqlqpSo9fjmkuQx2VvyC7n51zLP06s8t)
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).

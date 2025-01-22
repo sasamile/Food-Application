@@ -20,7 +20,6 @@ export default function RestaurantsDetail() {
   const [food, setFood] = useState<FoodProps[]>([]);
   const [restaurants, setRestaurants] = useState<RestaurantId | null>(null);
 
-  console.log(restaurants);
 
   useEffect(() => {
     async function loadData() {
